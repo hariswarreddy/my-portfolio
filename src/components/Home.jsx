@@ -1,6 +1,6 @@
 import React from "react";
 import {  motion } from "framer-motion";
-import TypeWriter from "typewriter-effect";
+import { Typewriter } from "react-simple-typewriter";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import logo from "../assets/mee.jpeg";
 
@@ -38,18 +38,15 @@ const Home = () => {
             Hi I'm <br />
             Hariswar Reddy
           </motion.h1>
-          <TypeWriter
-            options={{
-              strings: ["A Full Stack Developer","A Competitive Programmer","A Frontend Developer", "A Backend Developer", "A Web Designer"], //Have to change
-              autoStart: true,
-              loop: true,
-              delay: 10,
-              deleteSpeed: 30,
-              // cursor:"",
-              wrapperClassName: "typewriterpara",
-             
-            }}
+            <div className="typewriterpara">
+            <Typewriter
+              words = {["A Full Stack Developer","A Competitive Programmer","A Frontend Developer", "A Backend Developer", "A Web Designer"]} //Have to change
+                cursor
+                loop
+                typeSpeed={50}
+                deleteSpeed={30}
           />
+          </div>
           <div className="work">
             <a href="mailto:hariswarreddy241005@gmail.com">Hire Me</a>
             <a href="#work">
