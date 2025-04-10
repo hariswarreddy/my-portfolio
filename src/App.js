@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import ExpTimeline from "./components/ExpTimeline";
 import { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
   }, [ratio]);
   return ratio<2?(
     <>
+      <Analytics/>
       <Toaster />
       <HeaderPhone menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
