@@ -1,0 +1,60 @@
+#services {
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  padding: 10vmax;
+  background-color: $color5;
+  color: $color4;
+  overflow: hidden;
+  > h2 {
+    font: 700 2.5rem $text2;
+    width: fit-content;
+    border-bottom: 1px solid $color4;
+    padding: 0.5rem;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  > section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 60vh;
+    color: black;
+    .serviceBox1 {
+      background-color: white;
+      padding: 3rem;
+      text-align: center;
+      border-right: 5px solid gray;
+      > h3 {
+        margin: auto;
+        font: 700 4rem "Open Sans";
+      }
+      > p {
+        font: 400 2rem "Open Sans";
+      }
+    }
+    .serviceBox2 {
+      background-color: white;
+      padding: 3rem;
+      > p {
+        font: 300 1.8vmax "Roboto";
+        word-spacing: 2px;
+        letter-spacing: 1px;
+      }
+      > div {
+        margin-top: 40px;
+        font: 500 2rem "Roboto";
+        > a {
+          margin-left: 10px;
+          text-decoration: none;
+          text-align: center;
+          color: rgb(173, 140, 30);
+          background: linear-gradient(90deg, rgb(255, 174, 0), #6d6d6d);
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+  }
+}

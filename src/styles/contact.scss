@@ -1,0 +1,65 @@
+#contact{
+    width: 100vw;
+    padding: 0 $p;
+    padding-top: 8vmax;
+    display: flex;
+    flex-direction: column;
+    >h2{
+        font: 700 2.5rem $text2;
+        border-bottom: 1px solid black;
+        padding: 0.5rem;
+        margin:auto;
+        color: black;
+        margin-bottom: 20px;
+    }
+    >section{
+        >form{
+           display: flex;
+           flex-direction: column;
+           justify-content: center ;
+           align-items: center ;
+           background-color: rgb(92, 132, 153);
+        height: 80vh;
+           >div {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            max-width: 500px; 
+            margin-top: 10px;
+            margin-left: 20px;
+            background-color: rgba(255, 255, 255, 0.836); 
+            border-radius: 10px;
+
+          
+            >svg {
+              margin-right: 10px;
+              margin-left: 10px;
+              color: gray;
+              flex-shrink: 0;
+            }
+          
+            >input, textarea {
+              width: 100%;
+              border: none;
+              outline: none;
+              padding: 1rem;
+              font: 400 1.2rem "Open Sans";
+              border-radius: 10px;
+              background: transparent;
+            }
+          }
+          >button{
+            padding: 1rem;
+            width: 20%;
+            margin-top: 20px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 10px;
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+          }
+        }
+    }
+}

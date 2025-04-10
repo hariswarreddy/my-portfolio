@@ -1,0 +1,50 @@
+{
+  "projects": [
+    {
+      "date": "MERN Stack Development",
+      "title": "ECHO ECOMMERCE",
+      "description": "Echo eCommerce is a full-stack online shopping platform developed using React for the frontend and Node.js with Express for the backend.It features secure JWT-based authentication with cookies, intuitive product browsing, and seamless cart management using Redux for real-time state updates. The site offers a smooth user experience with a clean UI/UX, mobile-friendly design",
+      "url": "https://echoecommercewebsite.onrender.com/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+    },
+
+    {
+      "date": "React, Firebase, Javascript",
+      "title": "CHATTERS HUB WEB APP",
+      "description": "Chatters Hub is a responsive chat application built with React.js and Chakra UI, enabling users to engage in real-time conversations anonymously. The platform integrates Firebase Authentication for secure Google-based sign-ins and Firestore for real-time data storage, ensuring seamless and dynamic interactions.",
+      "url": "https://chatters-hub.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+    },
+    {
+      "date": "React, Javascript, CSS, HTML",
+      "title": "XBIT CRYPTO WEB APP",
+      "description": "I developed XBit Crypto, a web application that provides real-time cryptocurrency data and analytics. Built with React.js and deployed on Vercel, the platform offers users an intuitive interface to track market trends and individual coin performance. This project enhanced my skills in integrating APIs, managing asynchronous data fetching",
+      "url": "https://xbit-crypto.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
+    },
+
+    {
+      "date": "Javascript, CSS, HTML Canvas",
+      "title": "BULLETSTROM X GAME",
+      "description": "Bulletstrom X, a browser-based shooting game that challenges players with multiple difficulty levels: Easy, Medium, Hard, and Insane. I built this project using HTML5 Canvas and JavaScript, focusing on creating smooth animations, responsive controls, and an escalating difficulty curve to keep players hooked.",
+      "url": "https://bulletstrom-x.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+    },
+    {
+      "date": "Python",
+      "title": "JARVIS VOICE ASSISTANT",
+      "description": "Jarvis is a Python-based voice assistant that responds to voice commands to perform basic tasks like opening websites or playing music from a custom library. It uses speech_recognition, gTTS, and pygame to listen, respond, and interact with the user. It also connects to OpenAI’s API to answer general questions, making it a handy and interactive desktop assistant.",
+      "url": "/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+    }
+  ],
+  "experience":[
+    {
+      "date": "Frontend Developer",
+      "title": "Annapurna Homestay",
+      "description": "I worked as a Frontend Developer for a homestay business based in Bangalore, where I was responsible for designing and developing responsive web pages to enhance the business’s online presence. During this internship, I built user-friendly interfaces using HTML, CSS, JavaScript, and React, focusing on creating a smooth and accessible user experience across devices.",
+      "url": "https://annapurnapg.vercel.app",
+      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+    }
+  ]
+}

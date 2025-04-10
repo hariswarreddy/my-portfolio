@@ -1,0 +1,400 @@
+@media screen and (max-width: 1024px) {
+  #home {
+    width: 100%;
+    flex-direction: column;
+    > section {
+      &:first-of-type {
+        > div {
+          > h1 {
+            margin: auto;
+          }
+          article {
+            width: 10rem;
+            margin: 2rem auto;
+            color: rgb(24, 21, 21);
+            position: relative;
+            &::after {
+              content: "";
+              background-color: white;
+              width: 100%;
+              height: 5rem;
+              border-radius: 50px;
+              position: absolute;
+              top: 0%;
+              left: -10%;
+              z-index: -1;
+            }
+            > p {
+              font: 900 2rem "Roboto";
+            }
+            > span {
+              font: 500 1rem "Roboto";
+            }
+          }
+          article[data-special] {
+            width: 20rem;
+            margin-left: 50px;
+          }
+          > aside {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+      &:last-of-type {
+        margin-top: 20px;
+        border: none;
+      }
+    }
+  }
+  #work {
+    > section {
+      > article {
+        height: 65vh;
+      }
+      .workItem {
+        height: 65vh;
+        flex-direction: column;
+      }
+    }
+  }
+  #experience {
+    > section {
+      > article {
+        height: 65vh;
+      }
+      .experienceItem {
+        height: 65vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        > aside {
+          > h3 {
+            font: 500 2rem "Roboto";
+          }
+          > p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+  #services {
+    > section {
+      .serviceBox2 {
+        > div {
+          > span {
+            display: block;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  #contact{
+    padding: 0;
+    padding-top: 8vmax;
+    >h2{
+      font-size: 2rem;
+      // width: 130%;
+
+    }
+    >section{
+      >form{
+        >div{
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 830px) {
+  nav{
+    >h2{
+      width: 20%;
+    }
+    >div{
+      width: 60%;
+    }
+    
+  }
+  #services {
+    > section {
+      height: 70vh;
+      .serviceBox2 {
+        > div {
+          margin-top: 10;
+          font: 500 1.5rem "Roboto";
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  nav{
+    justify-content: space-between;
+    >h2{
+      margin-left: 10px;
+    }
+
+    >div,
+    >a{
+      display: none;
+    }
+   
+  }
+  .navBtn{
+    display: block;
+    
+  }
+  #home {
+    height: 100vh;
+    > section {
+      &:first-of-type {
+        > div {
+          > h1 {
+            font: 700 3rem "Roboto";
+          }
+        }
+      }
+    }
+  }
+  #work {
+    width: 100%;
+    height: 120vh;
+    padding: 0;
+    > section {
+      padding: 0.5rem;
+      > article {
+        margin-top: -100px;
+        height: 90vh;
+      }
+      .workItem {
+        height: 90vh;
+      }
+    }
+  }
+  #experience {
+    width: 100%;
+    height: 120vh;
+    padding: 0;
+    > section {
+      padding: 0.5rem;
+      > article {
+        margin-top: -100px;
+        height: 90vh;
+      }
+      .experienceItem {
+        height: 90vh;
+      }
+    }
+  }
+
+  #timeline {
+    .timelineBox::after {
+      left: 31px;
+      height: 120vh;
+    }
+
+    .timelineItem {
+      width: 100%;
+      padding-left: 5rem;
+      padding-right: 2rem;
+    }
+
+    .rightTimeline {
+      left: 0%;
+    }
+    .leftTimeline,
+    .rightTimeline {
+      &::after {
+        left: 15px;
+      }
+    }
+  }
+  #exptimeline {
+    .exptimelineBox::after {
+      left: 31px;
+    }
+
+    .exptimelineItem {
+      width: 100%;
+      padding-left: 5rem;
+      padding-right: 2rem;
+    }
+
+    .rightTimeline {
+      left: 0%;
+    }
+    .leftTimeline,
+    .rightTimeline {
+      &::after {
+        left: 15px;
+      }
+    }
+
+  }
+  #services {
+    margin-top: 50px;
+    // height: 120vh;
+    padding: 7vmax;
+    > section {
+     
+      > div {
+        &:first-of-type {
+          display: none;
+        }
+      }
+    }
+  }
+  #contact{
+    padding: 0;
+    padding-top: 8vmax;
+    >h2{
+      font-size: 2rem;
+      // width: 130%;
+
+    }
+    >section{
+      >form{
+        >div{
+          width: 90%;
+        }
+      }
+    }
+  }
+  .footer{
+    height: 25vh;
+    padding-bottom: 10px;
+    flex-direction: column;
+    
+    .mid{
+      >a{
+        >p{
+          display: none;
+        }
+      }
+    }
+    .right{
+      >a{
+        display: none;
+      }
+      >div{
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            >a{
+                color: whitesmoke;
+                &:hover{
+                    color: gray
+                }
+            };
+      }
+    }
+  }
+}
+@media screen and (max-width: 394px) {
+  #home {
+    > section {
+      &:first-of-type {
+        > div {
+          > h1 {
+            font-size: 2.5rem;
+          }
+          .typewriterpara {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+  #work {
+    height: 130vh;
+    > section {
+      padding: 0.5rem;
+      > article {
+        height: 105vh;
+      }
+      .workItem {
+        height: 105vh;
+      }
+    }
+  }
+  #experience {
+    height: 130vh;
+    > section {
+      padding: 0.5rem;
+      > article {
+        margin-top: -100px;
+        height: 100vh;
+      }
+      .experienceItem {
+        height: 100vh;
+      }
+    }
+  }
+  #services {
+    margin-top: 50px;
+    // height: 130vh;
+    padding: 8vmax;
+    > section {
+     
+      > div {
+        &:first-of-type {
+          display: none;
+        }
+      }
+      .serviceBox2{
+        width: 90vw;
+        padding: 1rem;
+      }
+    }
+  }
+  
+}
+@media screen and (max-width: 380px) {
+  
+  #work {
+    height: 170vh;
+    > section {
+      padding: 0.5rem;
+      > article {
+        height: 130vh;
+      }
+      .workItem {
+        height: 130vh;
+      }
+    }
+  }
+  #experience {
+    height: 170vh;
+    > section {
+      padding: 0.5rem;
+      > article {
+        margin-top: -100px;
+        height: 130vh;
+      }
+      .experienceItem {
+        height: 130vh;
+      }
+    }
+  }
+  #timeline {
+
+    .timelineItem {
+      top: 70px;
+    }
+  }
+  #exptimeline {
+    .exptimelineItem {
+      top: 10px;
+    }
+  }
+  #services {
+    margin-top: 130px;
+  }
+  
+}

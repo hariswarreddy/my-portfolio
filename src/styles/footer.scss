@@ -1,0 +1,59 @@
+.footer{
+    // margin-top: 5vh;
+    width: 100vw;
+    // height: 50vh;
+    background-color: rgba(0, 0, 0, 0.871);
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    .left{
+        font: 500 1rem "Roboto";
+    color: white;
+
+    }
+    .mid{
+        
+        display: flex;
+        width: 70%;
+    color: white;
+        
+        justify-content: space-evenly ;
+        align-items: center;
+        >a{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            text-decoration: none;
+            transition: all 0.5s;
+            color: white;
+            >p{
+                display: inline;
+                padding:0 0.5vmax;
+                text-align: center;
+            }
+            &:hover{
+                color: gray;
+            }
+        }
+    }
+    .right{
+        >a{
+            text-decoration: none;
+            color: white;
+            >svg{
+            animation: upanddown 0.3s infinite linear alternate;
+
+            }
+        }
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        >div{
+            display: none;
+            
+        }
+    }
+}
