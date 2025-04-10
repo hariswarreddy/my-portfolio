@@ -263,6 +263,9 @@
         >div{
           width: 90%;
         }
+        >button{
+          width: 50%;
+        }
       }
     }
   }
@@ -356,7 +359,11 @@
   
 }
 @media screen and (max-width: 380px) {
-  
+  #home{
+    >svg{
+      bottom: -15%;
+    }
+  }
   #work {
     height: 170vh;
     > section {
